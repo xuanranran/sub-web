@@ -240,7 +240,7 @@
               </el-form-item>
               <el-form-item style="text-align: center">
                 <el-button
-                  style="width: 290px"
+                  style="width: 250px"
                   type="primary"
                   @click="dialogLoadConfigVisible = true"
                   icon="el-icon-copy-document"
