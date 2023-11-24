@@ -341,7 +341,7 @@ export default {
           "Firefly后端-B": "https://firefly-subweb.onrender.com/sub?",
           "Firefly后端-C": "https://render-sub.firefly-lm.workers.dev/sub?",
           "Firefly后端-D": "https://railway-sub.firefly-lm.workers.dev/sub?",
-          "Firefly后端-F": "https://subs-fireflylzh.b4a.run/sub?",
+          "Firefly后端-E": "https://subs-fireflylzh.b4a.run/sub?",
         },
         backendOptions: [
           { value: "http://localhost:25500/sub?" },
