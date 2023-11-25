@@ -588,7 +588,7 @@ export default {
     this.form.clientType = "clash";
     this.form.customBackend = "https://convert.miaoco.com/sub?";
     this.form.remoteConfig =
-      "https://raw.githubusercontent.com/xuanranran/Clash/main/Clash/ClashRule_A.ini";
+      "https://raw.githubusercontent.com/xuanranran/Clash/main/Clash/ClashRule.ini";
     this.getBackendVersion();
   },
   methods: {
