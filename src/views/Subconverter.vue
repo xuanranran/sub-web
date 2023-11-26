@@ -3,7 +3,7 @@
     <el-row style="margin-top: 10px">
       <el-col>
         <el-card>
-          <div slot="header">LovinYarn-SubConverter<svg-icon icon-class="github" style="margin-left: 20px"
+          <div slot="header">SubConverter<svg-icon icon-class="github" style="margin-left: 0px"
               @click=" gotoGayhubRuleset " />
             <div style="font-style: normal; font-size: 80%; text-align: right; margin-top: 5px;">{{ backendVersion }}
             </div>
