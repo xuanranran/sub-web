@@ -183,11 +183,11 @@ export default {
       options: {
         clientTypes: {
           Clash: "clash",
+          "Sing-box": "singbox",
           Surge3: "surge&ver=3",
           Surge4: "surge&ver=4",
           Quantumult: "quan",
           "Quantumult X": "quanx",
-          Sing-box: "singbox",
           Loon: "loon",
           Mellow: "mellow",
           Surfboard: "surfboard",
@@ -254,7 +254,7 @@ export default {
               },
             ], 
           },
-		{
+          {
             label: "LM-Firefly (Online, 与Github 同步)",
             options: [
               {
