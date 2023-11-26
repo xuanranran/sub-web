@@ -183,7 +183,7 @@ export default {
       options: {
         clientTypes: {
           Clash: "clash",
-	  Singbox: "singbox",
+          Sing-box: "singbox",
           Surge3: "surge&ver=3",
           Surge4: "surge&ver=4",
           Quantumult: "quan",
