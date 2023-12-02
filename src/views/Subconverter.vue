@@ -203,6 +203,7 @@ export default {
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
           "冉冉增强型后端【12核负载均衡】": "https://convert.miaoco.com/sub?",
+          "冉冉后端【12核负载均衡】": "https://suc.miaoco.com/sub?",
           "冉冉增强型后端": "https://suc.hsien.cn/sub?",
           "冉冉后端": "https://suc.shiuan.vip/sub?",
           "肥羊增强型后端【vless+hysteria】": "https://api.v1.mk/sub?",
@@ -221,6 +222,7 @@ export default {
         backendOptions: [
           { value: "http://localhost:25500/sub?" },
           { value: "https://convert.miaoco.com/sub?"},
+          { value: "https://suc.miaoco.com/sub?"},
           { value: "https://suc.shiuan.vip/sub?"},
           { value: "https://suc.hsien.cn/sub?"},
           { value: "https://api.v1.mk/sub?"},
