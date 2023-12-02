@@ -3,10 +3,8 @@
     <el-row style="margin-top: 10px">
       <el-col>
         <el-card>
-          <div slot="header">SubConverter<svg-icon icon-class="" style="margin-left: 20px"
-              @click=" gotoGayhubRuleset " />
-            <div style="font-style: normal; font-size: 80%; text-align: right; margin-top: 5px;">{{ backendVersion }}
-            </div>
+          <div slot="header">
+            <div style="text-align:center;font-size:15px">订 阅 转 换</div>
           </div>
           <el-container>
             <el-form :model=" form " label-width="80px" label-position="left" style="width: 100%">
