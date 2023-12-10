@@ -200,8 +200,8 @@ export default {
         },
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
-          "冉冉增强型后端【12核负载均衡】": "https://convert.miaoco.com/sub?",
-          "冉冉后端【12核负载均衡】": "https://suc.miaoco.com/sub?",
+          "冉冉增强型后端【6C12T负载均衡 支持Sing-Box】": "https://convert.miaoco.com/sub?",
+          "冉冉后端【6C12T负载均衡 支持hysteria2】": "https://suc.miaoco.com/sub?",
           "冉冉增强型后端": "https://suc.hsien.cn/sub?",
           "冉冉后端": "https://suc.shiuan.vip/sub?",
           "肥羊增强型后端【vless+hysteria】": "https://api.v1.mk/sub?",
