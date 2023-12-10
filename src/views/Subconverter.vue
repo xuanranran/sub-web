@@ -249,6 +249,10 @@ export default {
                 value: "https://raw.githubusercontent.com/xuanranran/Clash/main/Clash/ClashRule.ini",
               },
               {
+                label: "自用规则_无自动测速选择_适用于Clash.Meta外部规则",
+                value: "https://raw.githubusercontent.com/xuanranran/Clash/main/Clash/ClashRule_B.ini",
+              },
+              {
                 label: "自用规则_有自动测速选择",
                 value: "https://raw.githubusercontent.com/xuanranran/Clash/main/Clash/ClashRule_region_optional.ini",
               },
