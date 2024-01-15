@@ -202,8 +202,8 @@ export default {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
           "冉冉增强型后端【6C12T负载均衡 支持Sing-Box】": "https://convert.miaoco.com/sub?",
           "冉冉后端【6C12T负载均衡 支持hysteria2】": "https://suc.miaoco.com/sub?",
-          "冉冉增强型后端【负载均衡 支持Sing-Box】": "https://suc.hsien.cn/sub?",
-          "冉冉后端【负载均衡 支持hysteria2】": "https://suc.shiuan.vip/sub?",
+          "冉冉增强型后端【四核负载均衡 支持Sing-Box】": "https://sub.shiuan.vip/sub?",
+          "冉冉后端【四核负载均衡 支持hysteria2】": "https://suc.shiuan.vip/sub?",
           "肥羊增强型后端【vless+hysteria】": "https://api.v1.mk/sub?",
           "肥羊备用后端【vless+hysteria】": "https://sub.d1.mk/sub?",
           "つつ-多地防失联【负载均衡+国内优化】": "https://api.tsutsu.one/sub?",
@@ -221,8 +221,8 @@ export default {
           { value: "http://localhost:25500/sub?" },
           { value: "https://convert.miaoco.com/sub?"},
           { value: "https://suc.miaoco.com/sub?"},
+          { value: "https://sub.shiuan.vip/sub?"},
           { value: "https://suc.shiuan.vip/sub?"},
-          { value: "https://suc.hsien.cn/sub?"},
           { value: "https://api.v1.mk/sub?"},
           { value: "https://sub.d1.mk/sub?"},
           { value: "https://api.tsutsu.one/sub?"},
@@ -480,7 +480,7 @@ export default {
   mounted ()
   {
     this.form.clientType = "clash";
-    this.form.customBackend = "https://convert.miaoco.com/sub?";
+    this.form.customBackend = "https://sub.shiuan.vip/sub?";
     this.form.remoteConfig =
       "https://raw.githubusercontent.com/xuanranran/Clash/main/Clash/ClashRule.ini";
     this.getBackendVersion();
