@@ -480,7 +480,7 @@ export default {
   mounted ()
   {
     this.form.clientType = "clash";
-    this.form.customBackend = "https://sub.shiuan.vip/sub?";
+    this.form.customBackend = "https://convert.miaoco.com/sub?";
     this.form.remoteConfig =
       "https://raw.githubusercontent.com/xuanranran/Clash/main/Clash/ClashRule.ini";
     this.getBackendVersion();
