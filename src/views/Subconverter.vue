@@ -181,7 +181,6 @@ export default {
       options: {
         clientTypes: {
           Clash: "clash",
-          Clash.Meta: "clash.meta",
           "Sing-box": "singbox",
           Surge3: "surge&ver=3",
           Surge4: "surge&ver=4",
