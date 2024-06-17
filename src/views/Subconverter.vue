@@ -148,7 +148,7 @@
       <div slot="title">可以从老的订阅信息中解析信息,填入页面中去</div>
       <el-form label-position="left" style="width: 100%">
         <el-form-item prop="uploadConfig">
-          <el-input v-model=" loadConfig " type="textarea" :autosize=" { minRows: 10, maxRows: 20 } " maxlength="5000"
+          <el-input v-model="uploadConfig" type="textarea" :autosize="{ minRows: 15, maxRows: 30 }" maxlength="10000"
             show-word-limit></el-input>
         </el-form-item>
       </el-form>
@@ -181,6 +181,7 @@ export default {
       options: {
         clientTypes: {
           Clash: "clash",
+          Clash.Meta: "clash.meta",
           "Sing-box": "singbox",
           Surge3: "surge&ver=3",
           Surge4: "surge&ver=4",
